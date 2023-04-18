@@ -43,9 +43,8 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 00-6 6h12a6 6 0 00-6-6z"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8a3 3 0 100-6 3 3 0 000 6zm0 2a6 6 0 00-6 6h12a6 6 0 00-6-6z" />
               </svg>
-              <span class="visually-hidden">Профиль</span>
             </a>
           </li>
         </ul>
@@ -90,7 +89,7 @@
 
                 <div class="range-wrapper-inputs">
                   <label class="catalog-filter-label">
-                    от <input class="range-input" type="number" value="50" name="min-price"> ₽
+                    от <input class="range-input" type="number" value="450" name="min-price"> ₽
                   </label>
                   <label class="catalog-filter-label">
                     до <input class="range-input" type="number" value="1500" name="max-price" style="width: 37px"> ₽
@@ -192,16 +191,16 @@
               </form>
 
               <a href="#" class="card-grid-toggle" type="button">
+                <span class="visually-hidden">Показать список</span>
                 <svg width="16" height="16" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                   <path d="M2 0a2 2 0 100 4 2 2 0 000-4zm0 6a2 2 0 100 4 2 2 0 000-4zm-2 8a2 2 0 114 0 2 2 0 01-4 0zM7 1a1 1 0 000 2h8a1 1 0 100-2H7zM6 8a1 1 0 011-1h8a1 1 0 110 2H7a1 1 0 01-1-1zm1 5a1 1 0 100 2h8a1 1 0 100-2H7z" />
                 </svg>
-                <span class="visually-hidden">Показать список</span>
-
               </a>
               <a href="#" class="card-grid-toggle card-grid-toggle-current" type="button">
-                <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 2a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm6 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm10 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0ZM0 8a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm10 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Zm2 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm-8 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Zm2 0a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm10 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/></svg>
                 <span class="visually-hidden">Показать карточки</span>
-
+                <svg width="16" height="16" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path d="M0 2a2 2 0 114 0 2 2 0 01-4 0zm6 0a2 2 0 114 0 2 2 0 01-4 0zm10 0a2 2 0 10-4 0 2 2 0 004 0zM0 8a2 2 0 114 0 2 2 0 01-4 0zm10 0a2 2 0 10-4 0 2 2 0 004 0zm2 0a2 2 0 114 0 2 2 0 01-4 0zm-8 6a2 2 0 10-4 0 2 2 0 004 0zm2 0a2 2 0 114 0 2 2 0 01-4 0zm10 0a2 2 0 10-4 0 2 2 0 004 0z" />
+                </svg>
               </a>
             </div>
 
@@ -318,7 +317,7 @@
         <section class="newsletter">
           <h2 class="page-footer-title">Получайте лучшие предложения</h2>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="newsletter-email">
+            <p class="newsletter-email field-group">
               <label class="visually-hidden" for="newsletter-email">Email</label>
               <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
             </p>
